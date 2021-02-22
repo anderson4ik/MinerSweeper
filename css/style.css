@@ -1,0 +1,46 @@
+
+.board td {
+    width: 50px;
+    height: 50px;
+    background: linear-gradient(to bottom , rgb(100, 92, 92), rgb(187, 173, 173)); 
+    position: relative;
+}
+
+.board td.open {
+   background: white;
+   text-align: center;
+   line-height: 50px;
+   font-size: 24px;
+}
+
+.board td.lock {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: green; 
+   
+}
+
+.name {
+    background-color:seagreen; 
+    text-align: center;
+    size: 2em;
+}
+
+.time {
+    size: 3em;
+    text-align: center;
+}
+
+.timer {
+    background-color:seagreen; 
+    text-align: center;
+    size: 2em;
+}
+
+.board td.blast {
+    background-color: red;
+    text-align: center;
+    line-height: 50px;
+    font-size: 24px;
+}
